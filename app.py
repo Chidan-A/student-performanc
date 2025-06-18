@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load model
-with open('model_graduation.pkl', 'rb') as file:
+with open('model_gradulation.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Judul aplikasi
